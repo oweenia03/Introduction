@@ -22,16 +22,6 @@ top: 2
 * <h4 style="color: navy;">W1. Intro: 블록체인 핵심 기술과 활용 범위</h4>
 
 
-<div>
-    <button id="prev-page1">이전 페이지</button>
-    <input type="text" id="page-input1" placeholder="페이지 번호 입력" />
-    <button id="go-to-page1">이동</button>
-    <button id="next-page1">다음 페이지</button>
-    <span id="page-info1"></span> <!-- 페이지 정보 표시 -->
-</div>
-<div id="pdf-viewer1" style="width: 100%; height: 600px; margin-bottom: 300px;"></div>
-
-<h4 style="color: navy;"> W2. Mechanics of Bitcoin: 암호학, 블록, 트랜잭션</h4>
 
 <div>
     <button id="prev-page2">이전 페이지</button>
@@ -48,8 +38,8 @@ top: 2
 <script>
     // PDF 파일 경로 설정
     const pdfUrls = [
-        "https://raw.githubusercontent.com/oweenia03/owen/blob/_site/assets/files/week1.pdf", // 첫 번째 PDF 파일 경로
-        "https://raw.githubusercontent.com/oweenia03/owen/blob/_site/assets/files/week2.pdf"  // 두 번째 PDF 파일 경로
+        '{{ site.baseurl }}_site/assets/files/week1.pdf', // 첫 번째 PDF 파일 경로
+        '{{ site.baseurl }}_site/assets/files/week2.pdf'  // 두 번째 PDF 파일 경로
     ];
 
     let pdfDocs = [null, null],
@@ -131,7 +121,6 @@ top: 2
     // 각 PDF에 대해 페이지 탐색 기능 설정
     pdfUrls.forEach((_, index) => setupPageNavigation(index));
 </script>
-
 
 ### 추후 공부 계획
 <iframe src="https://www.inflearn.com/course/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%BD%94%EC%9D%B8%EC%A0%9C%EC%9E%91/dashboard" style="width:100%; height:500px;" frameborder="0"></iframe>
