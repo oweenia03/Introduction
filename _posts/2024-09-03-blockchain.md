@@ -123,6 +123,7 @@ top: 2
 </script>
 
 ### 추후 공부 계획
+![](https://github.com/oweenia03/owen/blob/main/_site/assets/images/block_2.png)
 <iframe src="https://www.inflearn.com/course/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%BD%94%EC%9D%B8%EC%A0%9C%EC%9E%91/dashboard" style="width:100%; height:500px;" frameborder="0"></iframe>
 
 <br><br>현재 인프런에서 위 강의를 수강하고 있다. 실습을 통해 블록체인의 기본 언어인 솔리디티를 익히고, 방학 때 스마트 컨트랙트를 이용한 프로젝트를 진행하고자 한다.
