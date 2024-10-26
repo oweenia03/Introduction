@@ -11,4 +11,4 @@ _posts 포더 내 문서는 포트폴리오 작성을 위해 임시로 만든 md
 진행한 프로젝트 혹은 공부한 내용을 업로드 합니다.  
 감사합니다.
 
-//email: 24kms@sookmyung.ac.kr//
+__email: 24kms@sookmyung.ac.kr__
