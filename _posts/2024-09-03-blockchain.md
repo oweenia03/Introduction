@@ -38,8 +38,8 @@ top: 2
 <script>
     // PDF 파일 경로 설정
     const pdfUrls = [
-        '{{ site.baseurl }}_site/assets/files/week1.pdf', // 첫 번째 PDF 파일 경로
-        '{{ site.baseurl }}_site/assets/files/week2.pdf'  // 두 번째 PDF 파일 경로
+        "https://raw.githubusercontent.com/oweenia03/owen/main/_site/assets/files/week1.pdf", // 첫 번째 PDF 파일 경로
+        "https://raw.githubusercontent.com/oweenia03/owen/main/_site/assets/files/week2.pdf"  // 두 번째 PDF 파일 경로
     ];
 
     let pdfDocs = [null, null],
