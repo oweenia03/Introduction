@@ -8,13 +8,13 @@ tags: [Blockchain, Cryptography]
 top: 2
 ---
 
-![banner](/assets/images/blockchain.png)
+![banner](https://github.com/oweenia03/owen/blob/main/_site/assets/images/blockchain.png)
 
 ### 왜 블록체인인가 ###
 
 |구글은 어떻게 여성을 차별하는가<br>(사피야 우모자)  | 설명          |
 |:-----------------------:|:---------------------:|
-| ![Book](/assets/images/book_algorithms_of_oppression.jpg)   |  <div style="text-align: justify;">  이 책은 it 기업이 데이터를 수집하고 처리하는 방식에서 여성을 비롯해 흑인과 유대인 등의 특정 집단이 차별받고 있음을 고발한다.<br> 블록체인의 투명성을 이용한다면 의도적 혐오 조장, 나아가 알고리즘 편향을 차단할 수 있지 않을까 생각했다.<br>  k-mooc에서 블록체인 이론에 관한 강의를 수강하였고, 추후 블록체인을 이용한 스마트컨트랙트를 구현해보며 블록체인을 응용해보고자 한다.</div> |
+| ![Book](https://github.com/oweenia03/owen/blob/main/_site/assets/images/book_algorithms_of_oppression.jpg)   |  <div style="text-align: justify;">  이 책은 it 기업이 데이터를 수집하고 처리하는 방식에서 여성을 비롯해 흑인과 유대인 등의 특정 집단이 차별받고 있음을 고발한다.<br> 블록체인의 투명성을 이용한다면 의도적 혐오 조장, 나아가 알고리즘 편향을 차단할 수 있지 않을까 생각했다.<br>  k-mooc에서 블록체인 이론에 관한 강의를 수강하였고, 추후 블록체인을 이용한 스마트컨트랙트를 구현해보며 블록체인을 응용해보고자 한다.</div> |
 
 <br>
 
@@ -52,8 +52,8 @@ top: 2
 <script>
     // PDF 파일 경로 설정
     const pdfUrls = [
-        '{{ site.baseurl }}/assets/files/week1.pdf', // 첫 번째 PDF 파일 경로
-        '{{ site.baseurl }}/assets/files/week2.pdf'  // 두 번째 PDF 파일 경로
+        '{{ site.baseurl }}https://github.com/oweenia03/owen/blob/main/_site/assets/files/week1.pdf', // 첫 번째 PDF 파일 경로
+        '{{ site.baseurl }}https://github.com/oweenia03/owen/blob/main/_site/assets/files/week2.pdf'  // 두 번째 PDF 파일 경로
     ];
 
     let pdfDocs = [null, null],
